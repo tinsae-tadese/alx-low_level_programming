@@ -1,8 +1,8 @@
 #include<stdio.h>
-/**i
- * main - starting point for the program to run.
- * @void: no argument
- * Retrun: Always 0(success)
+/**
+ *main - starting point for the program to run.
+ *@void: no argument
+ *Retrun: Always 0(success)
  */
 int main(void)
 {

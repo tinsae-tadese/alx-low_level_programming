@@ -2,7 +2,7 @@
 /**
  *main - starting point for the program to run.
  *@void: no argument
- *Retrun: Always 0(success)
+ *Return: Always 0(success)
  */
 int main(void)
 {

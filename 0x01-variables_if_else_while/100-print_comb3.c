@@ -15,11 +15,11 @@ for (d = c + 1; d <= 57; d++)
 {
 putchar(c);
 putchar(d);
-putchar(' ');
 if (c != 56)
 {
 	putchar(',');
 }
+putchar(' ');
 }
 }
 putchar('\n');

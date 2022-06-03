@@ -16,14 +16,14 @@ for (d = c + 1; d <= 56; d++)
 {
 for (e = d + 1; e <= 57; e++)
 {
-putchar(c);
-putchar(d);
-putchar(e);
-if (c != 55)
-{
-        putchar(',');
-}
-putchar(' ');
+	putchar(c);
+	putchar(d);
+	putchar(e);
+	if (c != 55)
+	{
+       		 putchar(',');
+	}
+	putchar(' ');
 }
 }
 }

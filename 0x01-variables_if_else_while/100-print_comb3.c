@@ -18,8 +18,8 @@ putchar(d);
 if (c != 56)
 {
 	putchar(',');
+	putchar(' ');
 }
-putchar(' ');
 }
 }
 putchar('\n');

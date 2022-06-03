@@ -22,8 +22,8 @@ putchar(e);
 if (c != 55)
 {
 putchar(',');
-}
 putchar(' ');
+}
 }
 }
 }

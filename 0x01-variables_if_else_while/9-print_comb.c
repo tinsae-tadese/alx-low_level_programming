@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-char c = 0;
+int c = 0;
 for (c = 48; c <= 57; c++)
 {
 putchar(c);

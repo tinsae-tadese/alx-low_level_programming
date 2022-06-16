@@ -7,9 +7,12 @@
  */
 void _puts(char *s)
 {
-unsigned int k = 0;
-for(k = 0; k != '\0'; k++)
+int k = 0;
+while(*s != '\0')
 {
-_putchar(*(s+1));
+_putchar(*s);
+k++;
+s++;
 }
+_putchar('\n');
 }

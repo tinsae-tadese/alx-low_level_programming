@@ -4,7 +4,7 @@
 /**
  *_strlen - a function that returns length of a string 
  *@s: pointer parameter
- *@Return: length of a string. 
+ *Return: length of a string. 
  */
 int _strlen(char *s)
 {
@@ -15,5 +15,5 @@ counter++;
 s++;
 }
 _putchar('\n');
-return counter;
+return (counter);
 }

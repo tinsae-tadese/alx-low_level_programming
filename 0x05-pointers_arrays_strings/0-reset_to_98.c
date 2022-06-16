@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include main.h
+#include "main.h"
 /**
  *@n: a pointer to hold address of passed variable.
  */

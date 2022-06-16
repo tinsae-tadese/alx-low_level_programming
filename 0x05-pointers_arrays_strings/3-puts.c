@@ -7,7 +7,8 @@
  */
 void _puts(char *s)
 {
-for(int k = 0; k < strlen(s); k++)
+int k = 0;
+for(k = 0; k < strlen(s); k++)
 {
 _putchar(*s);
 s += 1;

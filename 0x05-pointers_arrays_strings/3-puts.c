@@ -8,7 +8,7 @@
 void _puts(char *s)
 {
 int k = 0;
-while(*s != '\0')
+while( *s != '\0')
 {
 _putchar(*s);
 k++;

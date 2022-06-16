@@ -14,6 +14,5 @@ while (*s != '\0')
 counter++;
 s++;
 }
-_putchar('\n');
 return (counter);
 }

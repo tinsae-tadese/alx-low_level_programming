@@ -3,8 +3,8 @@
 #include "main.h"
 /**
  *print_rev - a function to print string in reverse order
- *_strlen - a function to find length of  a sring.
  *@s: a pointer parameter
+ *_strlen - a function that returns a length of a string.
  */
 void print_rev(char *s)
 {

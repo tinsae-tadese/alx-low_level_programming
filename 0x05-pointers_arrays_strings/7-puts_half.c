@@ -19,7 +19,8 @@ if ((i) % 2 == 0)
 {
 middle = i / 2;
 }
-else{
+else
+{
 middle = (i - 1) / 2;
 }
 while (s[middle] != '\0')
@@ -27,4 +28,5 @@ while (s[middle] != '\0')
 putchar(s[middle]);
 middle++;
 }
+putchar('\n');
 }

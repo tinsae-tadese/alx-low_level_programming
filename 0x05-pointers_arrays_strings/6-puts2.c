@@ -4,13 +4,13 @@
 #include "main.h"
 /**
  *puts2 - a function that prints every other character of a string.
- *s: a pointer parameter
+ *@s: a pointer parameter
  */
 void puts2(char *s)
 {
 int i;
 i = 0;
-while(*s != '\0')
+while (*s != '\0')
 {
 if (i % 2 == 0)
 {

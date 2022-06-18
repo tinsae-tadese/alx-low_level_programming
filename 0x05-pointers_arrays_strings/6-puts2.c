@@ -12,7 +12,6 @@ int i;
 i = 0;
 while(*s != '\0')
 {
-_putchar(*s);
 if (i % 2 == 0)
 {
 _putchar(*s);

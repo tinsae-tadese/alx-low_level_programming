@@ -25,8 +25,8 @@ middle = (i - 1) / 2;
 }
 while (s[middle] != '\0')
 {
-putchar(s[middle]);
+_putchar(s[middle]);
 middle++;
 }
-putchar('\n');
+_putchar('\n');
 }

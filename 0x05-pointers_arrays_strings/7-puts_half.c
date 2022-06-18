@@ -22,6 +22,7 @@ middle = i / 2;
 else
 {
 middle = (i - 1) / 2;
+middle = middle + 1;
 }
 while (s[middle] != '\0')
 {

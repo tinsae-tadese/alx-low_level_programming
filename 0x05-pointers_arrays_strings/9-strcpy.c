@@ -6,6 +6,7 @@
  *_strcpy - a function that copies a string from source to a destination
  *@dest: a pointer parameter
  *@src: a pointer parameter
+ *Return: a pinter to a destination string.
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -18,5 +19,5 @@ i++;
 j++;
 }
 dest[j] = '\0';
-return dest;
+return (dest);
 }

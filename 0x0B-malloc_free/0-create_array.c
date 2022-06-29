@@ -7,17 +7,17 @@
  */
 char *create_array(unsigned int size, char c)
 {
-char *ptr = NULL;
+char *ptr;
 if(size ==0 )
 {
-return NULL;
+return (NULL);
 }
 else
 {
-ptr = malloc(size*sizeof(char));
+ptr = malloc(size * sizeof(char));
 if(ptr != NULL)
 {
-int i;
+usigned int i;
 for(i = 0; i < size; i++)
 {
 ptr[i] = c;
@@ -25,8 +25,8 @@ ptr[i] = c;
 }
 else
 {
-return NULL;
+return (NULL);
 }
 }
-return ptr;
+return (ptr);
 }

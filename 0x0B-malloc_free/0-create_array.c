@@ -4,6 +4,7 @@
  *create_array - a function that creates array of char.
  *@size: a paramter that holds size of an array.
  *@c: specific char to assicgn an array with.
+ *Return: A pointer to block of memory allocate for the array.
  */
 char *create_array(unsigned int size, char c)
 {

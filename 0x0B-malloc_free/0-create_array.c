@@ -13,7 +13,7 @@ return NULL;
 }
 else
 {
-ptr = (int*)malloc(size*sizeof(char));
+ptr = (char*)malloc(size*sizeof(char));
 if(c != NULL)
 {
 int i;

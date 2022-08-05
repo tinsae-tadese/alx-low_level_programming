@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include "main.h"
 /**
-  *_abs - a function that prints absolute value of a given number
-  *@int n: takes one char as a parameter.
+  *_abs(int n) - a function that prints absolute value of a given number
+  *@n: takes one char as a parameter.
   *Return: Absolute value of a given number
   */
 int _abs(int n)
@@ -19,4 +20,5 @@ else
 {
 av = av;
 }
-return av;
+return (av);
+}

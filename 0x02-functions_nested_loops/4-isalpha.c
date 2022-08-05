@@ -12,4 +12,5 @@ if (c >= 97 && c <= 127 || c >=65 && c<= 90)
 {
 flag = 1;
 }
-return flag;
+return (flag);
+}

@@ -1,10 +1,8 @@
 #include<stdio.h>
 #include "main.h"
 /**
- *main - entry point of a program
- *@void: no argument
- *Return: Always 0(success)
- *print_alphabet - a function to print alphabet lower cases.
+ *print_alphabet_x10(void) - a function that prints 10 times the alphabet in lowercase
+ *@void - no argument
  */
 void print_alphabet_x10(void)
 {

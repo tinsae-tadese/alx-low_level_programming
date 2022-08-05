@@ -11,7 +11,7 @@ char ch = 'c';
 int counter = 0;
 for(counter = 0; counter <= 10; counter++)
 {
-for(ch = 'a'; c <= 'z'; ch++)
+for(ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
 }

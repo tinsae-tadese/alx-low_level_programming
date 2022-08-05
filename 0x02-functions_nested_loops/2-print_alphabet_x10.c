@@ -6,7 +6,7 @@
  *Return: Always 0(success)
  *print_alphabet - a function to print alphabet lower cases.
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 char ch = 'c';
 int counter = 0;
